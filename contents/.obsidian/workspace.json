@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "106bc99e6dc50348",
+        "id": "5e0f761490703b0f",
         "type": "tabs",
         "children": [
           {
-            "id": "17976721372ec8ce",
+            "id": "a4f35053d6239097",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/community-plugins.json",
-                "bFile": ".obsidian/community-plugins.json",
-                "aRef": ""
+                "file": "story/9章　狂気と非理性.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: community-plugins.json"
+              "icon": "lucide-file",
+              "title": "9章　狂気と非理性"
             }
           }
         ]
@@ -167,21 +167,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "webpage-html-export:Export Vault to HTML": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "17976721372ec8ce",
+  "active": "a4f35053d6239097",
   "lastOpenFiles": [
-    "place/ブエノスアイレス.md",
     "place/フリーブリーズ号.md",
+    "place/ブエノスアイレス.md",
+    "templates/note.md",
     "story/9章　狂気と非理性.md",
+    "templates",
     "20241004.jpg",
     "20250316.jpg",
     "無題のファイル.canvas",
