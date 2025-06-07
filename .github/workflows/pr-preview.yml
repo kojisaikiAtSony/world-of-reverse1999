@@ -20,6 +20,6 @@ jobs:
       - name: Deploy PR Preview
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAT_PREVIEW }}
           publish_dir: ./public
           destination_dir: pr-preview/pr-${{ github.event.pull_request.number }}
