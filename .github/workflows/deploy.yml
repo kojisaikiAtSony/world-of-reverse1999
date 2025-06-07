@@ -15,8 +15,8 @@ jobs:
           node-version: '24'
       - name: Install dependencies
         run: npm install
-      - name: Build Quartz site
-        run: npm run build
+      - name: Build Quartz
+        run: npx quartz build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
