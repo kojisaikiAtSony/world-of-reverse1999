@@ -18,7 +18,7 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
       - name: Debug Token Length
-        run: "echo 'Token length: ${#PAT_PREVIEW}'"
+        run: "echo ${#PAT_PREVIEW}"
         env:
             PAT_PREVIEW: ${{ secrets.PAT_PREVIEW }}
       - name: Deploy PR Preview
