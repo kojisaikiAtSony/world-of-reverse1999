@@ -1,11 +1,11 @@
-name: Deploy Quartz Site
+name: PR Preview
 
 on:
-  push:
+  pull_request:
     branches: [main]
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -17,8 +17,9 @@ jobs:
         run: npm install
       - name: Build Quartz
         run: npx quartz build
-      - name: Deploy to GitHub Pages
+      - name: Deploy PR Preview
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          destination_dir: pr-preview/pr-${{ github.event.pull_request.number }}
